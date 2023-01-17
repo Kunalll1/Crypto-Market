@@ -149,3 +149,11 @@ body {
   gap: 2rem;
   height: 85vh;
 }
+
+/* styling hero large button  */
+.button-large {
+  width: 25rem;
+  height: 6rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
