@@ -139,3 +139,13 @@ body {
   width: 10.1rem;
   color: var(--font-color);
 }
+
+/* styling hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  height: 85vh;
+}
