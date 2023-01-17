@@ -157,3 +157,13 @@ body {
   font-size: 2rem;
   margin-top: 2rem;
 }
+
+/* styling hero heading */
+
+.hero-heading {
+  font-size: 6rem;
+  width: 60%;
+  text-align: center;
+  color: var(--font-color);
+  font-family: var(--hedline-font-family);
+}
