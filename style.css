@@ -96,3 +96,46 @@ body {
   --hedline-font-family: "Poppins", sans-serif;
   --body-font-family: "Poppins", sans-serif;
 }
+
+/* Styling navigation container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  padding: 2rem;
+  background-color: var(--black-color);
+}
+
+/* setting with to LOGO img */
+.navbar div img {
+  height: 4.4rem;
+}
+
+/* styling the list of MENU item */
+.list {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.6rem;
+  list-style-type: none;
+  font-family: var(--body-font-family);
+  color: var(--font-color);
+  margin-left: -32rem;
+}
+
+.line {
+  width: 0.2rem;
+  height: 3rem;
+  background-color: var(--font-color);
+  margin-left: -34rem;
+}
+
+/* styling the nev button */
+.button-small,
+.button-large {
+  padding: 1rem;
+  background-color: var(--main-color);
+  border-radius: 1rem;
+  width: 10.1rem;
+  color: var(--font-color);
+}
