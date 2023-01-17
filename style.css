@@ -167,3 +167,13 @@ body {
   color: var(--font-color);
   font-family: var(--hedline-font-family);
 }
+
+/* styling hero description  */
+
+.hero-description {
+  font-size: 2rem;
+  width: 60%;
+  text-align: center;
+  color: var(--font-color);
+  font-family: var(--hedline-font-family);
+}
